@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="333.0" prefWidth="526.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contohdb1.FXML_InputMatkulController">
+   <children>
+      <Label layoutX="94.0" layoutY="57.0" text="KodeMK" />
+      <Label layoutX="92.0" layoutY="102.0" text="NamaMK" />
+      <Label layoutX="107.0" layoutY="148.0" text="SKS" />
+      <Label layoutX="97.0" layoutY="189.0" text="Praktek" />
+      <TextField fx:id="txtkodemk" layoutX="210.0" layoutY="53.0" />
+      <TextField fx:id="txtnamamk" layoutX="210.0" layoutY="98.0" />
+      <TextField fx:id="txtsks" layoutX="210.0" layoutY="144.0" />
+      <TextField fx:id="txtpraktek" layoutX="210.0" layoutY="185.0" />
+      <Button fx:id="btnsimpan" layoutX="115.0" layoutY="261.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <Button fx:id="btnbatal" layoutX="234.0" layoutY="261.0" mnemonicParsing="false" onAction="#batalklik" prefHeight="25.0" prefWidth="56.0" text="Batal" />
+      <Button fx:id="btnkeluar" layoutX="356.0" layoutY="261.0" mnemonicParsing="false" onAction="#keluar" prefHeight="25.0" prefWidth="56.0" text="Keluar" />
+   </children>
+</AnchorPane>

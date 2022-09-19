@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="350.0" prefWidth="427.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="contohdb1.FXML_InputNilaiController">
+   <children>
+      <Label layoutX="68.0" layoutY="73.0" text="npm" />
+      <Label layoutX="68.0" layoutY="113.0" text="kode mk" />
+      <Label layoutX="68.0" layoutY="151.0" text="tanggal" />
+      <Label layoutX="68.0" layoutY="187.0" text="nilai" />
+      <Label layoutX="68.0" layoutY="224.0" text="hadir (max 28)" />
+      <TextField fx:id="txtnpm" layoutX="186.0" layoutY="69.0" />
+      <TextField fx:id="txtkodemk" layoutX="186.0" layoutY="109.0" />
+      <DatePicker fx:id="dtptanggal" layoutX="186.0" layoutY="147.0" />
+      <TextField fx:id="txtnilai" layoutX="186.0" layoutY="183.0" />
+      <Slider fx:id="sldhadir" layoutX="186.0" layoutY="226.0" />
+      <Label fx:id="lblhadir" layoutX="329.0" layoutY="225.0" text="0" />
+      <Button fx:id="btnsimpan" layoutX="91.0" layoutY="284.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <Button fx:id="btnbatal" layoutX="187.0" layoutY="284.0" mnemonicParsing="false" onAction="#batalklik" prefHeight="25.0" prefWidth="56.0" text="Batal" />
+      <Button fx:id="btnkeluar" layoutX="281.0" layoutY="284.0" mnemonicParsing="false" onAction="#keluarklik" prefHeight="25.0" prefWidth="56.0" text="Keluar" />
+   </children>
+</AnchorPane>
